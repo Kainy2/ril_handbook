@@ -13,53 +13,98 @@ const otherLinks = [
         links: [
             { name: 'Story', to: '/handbook/company/story' },
             { name: 'Team', to: '/handbook/company/team' },
-            { name: 'Strategy overview', to: '/handbook/strategy/overview' },
-            { name: 'Objectives', to: '/handbook/strategy/objectives' },
+            { name: 'Investors', to: '/handbook/company/investors' },
+            { name: 'Basic Process', to: '/handbook/company/process' },
+            { name: 'Working With Trello', to: '/handbook/company/trello' },
         ],
     },
     {
-        name: 'How we work',
+        name: 'Strategy',
         links: [
-            { name: 'Culture', to: '/handbook/company/culture' },
-            { name: 'Values', to: '/handbook/company/values' },
-            { name: 'Team structure', to: '/handbook/company/small-teams' },
-            { name: 'Management', to: '/handbook/company/management' },
-        ],
-    },
-    {
-        name: 'People',
-        links: [
-            { name: 'Compensation', to: '/handbook/people/compensation' },
-            { name: 'Benefits', to: '/handbook/people/benefits' },
-            { name: 'Time off', to: '/handbook/people/time-off' },
-            { name: 'Spending money', to: '/handbook/people/spending-money' },
+            {
+                name: 'Overview',
+                to: '/handbook/strategy/overview',
+            },
+            {
+                name: 'Direction',
+                to: '/handbook/strategy/direction',
+            },
         ],
     },
     {
         name: 'Engineering',
         links: [
-            { name: 'Developing locally', to: '/handbook/engineering/developing-locally' },
-            { name: 'Support hero', to: '/handbook/engineering/support-hero' },
-            { name: 'Feature ownership', to: '/handbook/engineering/feature-ownership' },
-            { name: 'Releasing a new version', to: '/handbook/engineering/release-new-version' },
+            {
+                name: 'Product Cycle',
+                to: '/handbook/engineering/initial-planning',
+            },
+            {
+                name: 'Product/Feature Life Cycle',
+                to: '/handbook/engineering/feature-life-cycle',
+            },
+            {
+                name: 'Wireframe Design Guidelines',
+                to: '/handbook/engineering/wireframe-design-guidelines',
+            },
+            {
+                name: 'Development Stages',
+                to: '/handbook/engineering/development-stages',
+            },
+            {
+                name: 'Infrastructure System',
+                to: '/handbook/engineering/infrastructure-system',
+            },
+            {
+                name: 'Project Types',
+                to: '/handbook/engineering/project-types',
+            },
+        ],
+    },
+    {
+        name: 'Product',
+        links: [
+            {
+                name: 'Finza',
+                to: '/handbook/product/metrics',
+            },
+            {
+                name: 'Demo App',
+                to: '/handbook/product/user-feedback',
+            },
+            {
+                name: 'Payouts SDK',
+                to: '/handbook/product/paid-features',
+            },
+            {
+                name: 'Marketplace',
+                to: '/handbook/product/releasing-as-beta',
+            },
         ],
     },
     {
         name: 'Design',
         links: [
-            { name: 'Philosophy', to: '/handbook/design/philosophy' },
-            { name: 'Product design', to: '/handbook/design/process' },
-            { name: 'Working with product design', to: '/handbook/engineering/product-design' },
-            { name: 'PostHog.com', to: '/handbook/design/designing-posthog-website' },
+            {
+                name: 'Product Design process',
+                to: '/handbook/design/process',
+            },
         ],
     },
     {
         name: 'Sales & marketing',
         links: [
-            { name: 'Marketing overview', to: '/handbook/growth/marketing' },
-            { name: 'Content & SEO', to: '/handbook/growth/marketing/blog' },
-            { name: 'Inbound model', to: '/handbook/growth/sales/overview' },
-            { name: 'Sales operations', to: '/handbook/growth/sales/sales-operations' },
+            {
+                name: 'Overview',
+                to: '/handbook/growth/marketing',
+            },
+            {
+                name: 'Sales',
+                to: '/handbook/growth/marketing/sales',
+            },
+            {
+                name: 'Co Work-Space',
+                to: '/handbook/growth/marketing/co-work-space',
+            },
         ],
     },
 ]
